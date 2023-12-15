@@ -1,0 +1,82 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('n2024.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.invitacion {
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url("promo4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h3{
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 42px;
+  color: #940303;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+strong {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.direccion-btn,
+.confirmar-btn {
+  background-color: #8B0000;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.direccion-btn:hover,
+.confirmar-btn:hover {
+  background-color: #FFDAB9;
+  color: #8B0000;
+}
+
+.mini-foto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #000000;
+}
+
+p {
+  font-size: 22px;
+}
