@@ -5,10 +5,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('n2024.jpg');
+  background-image: url('gifas.gif');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: auto;
+  background-position: center;
 }
 
 .contenedor {
@@ -20,8 +20,8 @@ body {
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url("promo4.jpg");
+  background-color: rgba(164, 164, 167, 0.8);
+  background-image: url("fondo5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,28 +32,29 @@ h3{
 
 h1 {
   font-size: 42px;
-  color: #940303;
+  color: #000000;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 45px;
+  color: #001885;
 }
 
 p {
   font-size: 18px;
-  color: #000000;
+  color: #ffc936;
   line-height: 1.6;
 }
 
 strong {
   font-size: 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(161, 162, 163);
 }
 
 .direccion-btn,
 .confirmar-btn {
   background-color: #8B0000;
-  color: white;
+  color: rgb(43, 46, 197);
   padding: 8px 12px;
   border: none;
   border-radius: 5px;
@@ -65,7 +66,7 @@ strong {
 
 .direccion-btn:hover,
 .confirmar-btn:hover {
-  background-color: #FFDAB9;
+  background-color: #2608ca;
   color: #8B0000;
 }
 
@@ -79,4 +80,13 @@ strong {
 
 p {
   font-size: 22px;
+  font-family: "Homer Simpson UI";
+}
+h1, h2, h3 {
+  font-family:  cursive;
+  color: #0515f7; /* Dorado */
+  font-style: italic;
+}
+.bc{
+  color: aqua;
 }
